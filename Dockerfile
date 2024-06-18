@@ -1,4 +1,4 @@
-FROM tomcat:8.0-alpine
+FROM tomcat:alpine
 MAINTAINER Dilip
 WORKDIR /usr/local/tomcat/webapps
 COPY ./target/onlinebookstore.war /usr/local/tomcat/webapps/ROOT.jar
